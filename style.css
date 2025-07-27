@@ -1,0 +1,665 @@
+*, body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+header .indent {
+    padding: 51px 134px;
+    position: relative;
+}
+/* Кнопки */
+.batton_white {
+    border: 1px solid rgb(221, 221, 221);
+    padding: 19px 25px;
+    border-radius: 16px;
+    background-color: white;
+    color:#121212;
+    text-decoration: none;
+    font-weight:600;
+    font-size: 18px;
+    line-height: 20px;
+}
+.batton_white:hover {
+    padding: 19px 25px;
+    border-radius: 16px;
+    background-color: #FF5634;
+    color: #fff;
+    border: 1px solid #FF5634;
+}
+header li a {
+    color: #121212;
+}
+header li a:hover {
+    color: #FF5634;
+}
+header a {
+    font-weight:600;
+}
+/* убрать маркеры */
+header ul {
+    list-style: none;
+}
+/* Отступы */
+header li {
+    margin-left: 26px;
+}
+header li:last-child {
+    margin-left: 44px;
+}
+header a+a {
+    margin-left: 18px;
+}
+header ul+a {
+    margin-left: 32px;
+}
+header li:first-child{
+    margin-left: 0;
+}
+header .item, header ul, header li{
+    display: inline-block;
+}
+header a {
+    text-decoration: none;
+}
+header .item {
+    position: absolute;
+    left: 630px;
+    top: 64px;
+}
+
+/* Первый блок */
+.one .indent,
+.one li  {
+    display: inline-block;
+}
+.one .indent {
+    width: 725px;
+    height: 734px;
+    margin-top: 180px;
+    padding: 0 0 0 134px;
+    position: relative;
+}
+
+.one h2,
+.free h2,
+.six h2 {
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color:#FF5634;
+    margin-bottom: 28px;
+}
+.one .top h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 72px;
+    color:#121212;
+    margin-bottom: 16px;
+    width: 550px;
+}
+.one .top p,
+.four .item p,
+.five .item p,
+.free .top p,
+.six .top p,
+.nine .indent > .top p {
+    font-size: 13px;
+    line-height: 30px;
+    margin-bottom: 33px;
+    color: #656565;
+    position: relative;
+}
+.one .top a {
+    padding: 26px 39px;
+}
+.one .top a:last-child {
+    margin-left: 26px;
+}
+.one .top {
+    width: 580px;
+    padding-bottom: 87px;
+    border-bottom: 1px solid #CACACA;
+}
+.one .top label,
+.free .top label,
+.free .center label,
+.four .item label,
+.five .item label,
+.six .top label,
+.eight .top label,
+.eight .bottom label,
+.nine .indent > .top label {
+    font-size: 18px;
+    line-height: 30px;
+    position: absolute;
+    left: 420px;
+}
+.one .bottom h1{
+    margin-top: 60px;
+    margin-right: 58px;
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 700;
+}
+.one .bottom p {
+    font-size: 18px;
+    line-height: 20px;
+    color: #656565;
+}
+.one .bottom span {
+    color:#FF5634;
+}
+.one .indent > img {
+    position: absolute;
+    top: -45px;
+    right: -240px;
+}
+/* Второй блок */
+.two .indent {
+    text-align: center;
+    padding: 51px 134px;
+}
+.two .item {
+    padding-bottom: 140px;
+    border-bottom: 1px solid #CACACA;
+}
+.two p {
+    font-size: 20px;
+    line-height: 22px;
+    color: #656565;
+    padding-top: 68px;
+    padding-bottom: 48px;
+}
+.two img {
+    padding-right: 65px;
+}
+.two img:last-child {
+    padding-right: 0px;
+}
+.two label {
+    padding: 0 10px;
+}
+/* третий блок */
+/* Вверх */
+.free .indent {
+    text-align: center;
+    padding: 51px 134px;
+}
+.free h1,
+.four h1,
+.six .top h1 {
+    font-size: 44px;
+    line-height: 54px;
+}
+.free .top h2,
+.six .top h2 {
+    margin-bottom: 7px;
+}
+.free .top p,
+.six .top p {
+    margin-top: 20px;
+    position: relative;
+}
+.free .top label,
+.six .top label {
+    top: 20px;
+    right: 45px;
+}
+/* Центр */
+.free .center .item {
+    display: inline-block;
+    width: 350px;
+    height: 430px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.free .center .item:first-child {
+    margin-left: 0;
+}
+.free h3 {
+    color: #121212;
+    font-size: 30px;
+    line-height: 40px;
+}
+.free .center p,
+.six .down p,
+.six .up p,
+.nine blockquote {
+    font-size: 21px;
+    line-height: 30px;
+    color: #656565;
+    margin-top: 15px;
+}
+.free .center .item {
+    position: relative;
+}
+.free .center label {
+    top: 372px;
+    left: 195px;
+    width: 80px;
+}
+/* Низ */
+.free .bottom {
+    margin: 60px 0 200px 0;
+    padding-bottom: 1px solid #CACACA;
+}
+.free .bottom a:first-child{
+    margin-right: 26px;
+}
+/* Четвёртый блок */
+.four .indent {
+    margin: 200px 90px 100px 108px;
+}
+.four .item,
+.four .left,
+.four .right {
+    display: inline-block;
+    vertical-align: top;
+}
+.four .item {
+    width: 525px;
+}
+.four .item+img{
+    margin-left: 96px;
+}
+.four .left,
+.four .right {
+    display: inline-block;
+    width: 255px;
+}
+.four h1+p {
+    position: relative;
+}
+.four .item label {
+    top: 27px;
+    left: 60px;
+}
+.four .item h1+p > label {
+    top: 27px;
+    left: 320px;
+}
+.four .bottom {
+    padding: 110px 0;
+    text-align: center;
+}
+.four .bottom a:first-child {
+    margin-right: 27px;
+}
+.four h3 {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 15px 0;
+}
+/* Пятый блок */
+.five,
+.ten {
+    background-color: #121212;
+}
+.five .item {
+    display: inline-block;
+    padding-top: 275px;
+    width: 585px;
+    height: 579px;
+    margin-left: 109px;
+}
+.five h1,
+.ten .item h1 {
+    font-size: 56px;
+    line-height: 66px;
+    color: white;
+}
+.five .item p,
+.five .item label,
+.ten .item p,
+.eleven .item1 p {
+    color: #fff;
+    padding: 20px 0 50px 0;
+    font-size: 12px;
+    line-height: 30px;
+}
+.five .item label {
+    top: 25px;
+    left: 320px;
+}
+/* Шестой блок */
+.six .indent {
+    margin: 199px 109px;
+}
+.six .top,
+.six .left,
+.six .center,
+.six .right {
+    text-align: center;
+}
+.six .left,
+.six .center,
+.six .right {
+    display: inline-block;
+    width: 360px;
+    margin: 0 50px 0 0;
+}
+.six .right {
+    margin-right: 0px;
+}
+.six .down h3,
+.six .up h3 {
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.six .down,
+.six .up {
+    margin-top: 50px;
+}
+.six .bottom {
+    margin-top: 60px;
+    text-align: center;
+}
+.six .bottom a:first-child{
+    margin-right: 27px;
+}
+/* Седьмой блок */
+.seven .indent,
+.eight .indent,
+.nine .indent {
+    margin: 199px 109px;
+}
+.seven .item,
+.seven .top_1,
+.eight .item,
+.eight .top_1 {
+    display: inline-block;
+}
+.seven .item,
+.eight .item {
+    vertical-align: 200px;
+    width: 560px;
+}
+.seven .top_1,
+.eight .top_1 {
+    width: 450px;
+}
+.seven .indent > img {
+    margin-right: 55px;
+}
+.seven .item h1,
+.eight .item h1,
+.nine .indent > .top h1{
+    font-size: 44px;
+    line-height: 54px;
+    color: #121212;
+}
+.eight .item h1,
+.nine .indent > .top h1{
+    font-weight: 400;
+}
+.seven .item p,
+.eight .item p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #656565;
+}
+.seven .top,
+.seven .bottom,
+.eight .top,
+.eight .bottom {
+    margin-top: 30px;
+}
+.seven .top h3,
+.seven .bottom h3,
+.eight .top h3,
+.eight .bottom h3 {
+    font-size: 18px;
+    line-height: 34px;
+    color:#121212;
+}
+.seven .top p,
+.seven .bottom p,
+.eight .top p,
+.eight .bottom p {
+    font-size: 13px;
+    line-height: 30px;
+}
+/* Восьмой блок */
+.eight .item {
+    margin-right: 55px;
+}
+.eight .top p,
+.eight .bottom p {
+    position: relative;
+}
+.eight .top label,
+.eight .bottom label {
+    top: 20px;
+    left: 210px;
+}
+/* Девятый блок Вверх */
+.nine {
+    background-color: #FAFAFA;;
+}
+.nine .indent .top2 {
+    margin-top: 160px;
+    width: 450px;
+}
+.nine .indent > .top h1,
+.nine .indent .top2 {
+    display: inline-block;
+}
+.nine .indent > .top h1:first-child{
+    padding-right: 40px;
+}
+.nine .indent > .top label{
+    top: 25px;
+    left: 320px;
+}
+.nine .top a {
+    vertical-align: 30px;
+}
+/* Сдвинуть кнопки */
+.nine .top > a:nth-of-type(1) {
+    vertical-align: center;
+    margin: 0 28px 0 325px;
+}
+/* Девятый блок низ (отзовы) */
+.nine .bot > .left,
+.nine .bot > .center,
+.nine .bot > .right {
+    display: inline-block;
+    width: 398px;
+}
+.nine .bot {
+    vertical-align: top;
+}
+.nine .bot .top,
+.nine .bot .down {
+    margin-top: 28px;
+    margin-right: 28px;
+    border: 1px solid #EDEDED;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 30px;
+    vertical-align: top;
+}
+
+.nine .bot .item,
+.nine .bot .item {
+    width: 120px;
+}
+.nine .bot .item,
+.nine .bot .item,
+.nine .cube {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: 16px;
+}
+.nine .cube {
+    border: 1px solid #EEF8FF;
+    background-color: #EEF8FF;
+    width: 36px;
+    height: 36px;
+    margin-left: 60px;
+}
+.nine h4 {
+    font-size: 16px;
+    line-height: 18px;
+    color: #FF5634;
+    font-weight: 400;
+}
+.nine cite {
+    font-size: 18px;
+    line-height: 20px;
+    color:#121212;
+    font-weight: 400;
+    font-style: normal;
+}
+.nine blockquote {
+    position: relative;
+}
+.nine blockquote label {
+    position: absolute;
+    top: 55px;
+    left: 170px;
+}
+/* десятый блок */
+.ten .indent {
+    padding: 185px 109px;
+}
+.ten h1 {
+    font-weight: normal;
+    display: inline;
+}
+.ten h1:nth-of-type(1) {
+    margin-right: 30px;
+}
+.ten {
+    height: 656px;
+}
+.ten .item {
+    display: inline-block;
+    position: relative;
+    width: 500px;
+}
+.ten img:nth-last-of-type(1) {
+    position: absolute;
+    top: -300px;
+    left: 800px;
+    z-index: 1;
+}
+.ten img:nth-last-of-type(2) {
+    position: absolute;
+    top: -300px;
+    left: 500px;
+    z-index: 2;
+}
+/* 11 блок */
+.eleven .indent {
+    margin: 85px 109px;
+}
+.eleven .item1,
+.eleven .item2 {
+    display: inline-block;
+}
+.eleven .item1 p {
+    width: 430px;
+    color: #656565;
+    margin-right: 330px;
+}
+.eleven a+a {
+    margin-left: 30px;
+}
+/* 12 блок */
+/* отступы по краям 109px */
+.navigation .item:first-child {
+    margin-left: 109px;
+}
+.navigation .item:last-child {
+    margin-right: 109px;
+}
+.navigation h4 {
+    padding: 20px 0;
+    width: 120px;
+    color:#121212;
+    margin-top: 98px;
+    font-size: 20px;
+    line-height: 22px;
+}
+/* Убераем в списках все маркеры */
+.navigation ul {
+    list-style: none;
+}
+/*inline-block для Menu - Utility - Available */
+.navigation .item {
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 110px;
+}
+/* задаём размер Available in */
+.navigation .item:last-child {
+    width: 490px;
+    margin-left: 90px;
+}
+.navigation .one,
+.navigation .two1,
+.navigation .free,
+.navigation .four {
+    display: inline-block;
+    width: 230px;
+}
+.navigation .one a,
+.navigation .two1 a,
+.navigation .free a,
+.navigation .four a {
+    vertical-align: 33px;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #121212;
+    font-size: 18px;
+}
+.navigation .two1,
+.navigation .four{
+    margin-left: 25px;
+}
+/* выравниваем столбцы меню */
+.navigation .item:nth-of-type(1) .left, 
+.navigation .item:nth-of-type(1) .right {
+    display: inline-block;
+    vertical-align: top;
+}
+.navigation .item:nth-of-type(1) .left{
+    margin-right: 45px;
+}
+/* выравнивание*/
+.navigation .item:nth-of-type(1) {
+    display: inline-block;
+    vertical-align: top;
+    width: 360px;
+}
+.navigation .item:nth-of-type(2) {
+    width: 150px;
+    margin-right: 110px;
+}
+.navigation .item:nth-of-type(1) a,
+.navigation .item:nth-of-type(2) a {
+    text-decoration: none;
+    color: #656565;
+    font-size: 18px;
+    line-height: 35px;
+}
+.navigation .item a:hover {
+    color:#FF5634;
+}
+footer {
+    text-align: center;
+}
+footer p {
+    margin-top: 32px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+footer span {
+    color: #FF5634;
+}
